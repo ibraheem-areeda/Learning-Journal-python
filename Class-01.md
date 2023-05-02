@@ -22,7 +22,7 @@ now it will appear like this `(.venv) lab01` as the (.venv) will appear in the s
  inside of it 
  
  5. run the code    
- 6. to run your code just type in the terminal `python your_project_name.py`
+ to run your code just type in the terminal `python your_project_name.py`
  
  
  
