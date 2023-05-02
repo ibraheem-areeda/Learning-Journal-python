@@ -17,6 +17,14 @@ now it will appear like this `(.venv) lab01` as the (.venv) will appear in the s
 3. install packages
  now inside the environment you can install any package you need using `pip` or `yarn` its just like npm in node js (package manager)
  
+ 4. code 
+ after you have every thing seted up you are ready to code just create a file with your project name with py extention like this `your_project_name.py` then write your logc
+ inside of it 
+ 
+ 5. run the code
+to run your code just type in the terminal `python your_project_name.py`
+ 
+ 
  
 
 
