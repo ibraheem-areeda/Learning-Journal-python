@@ -32,9 +32,9 @@ def test_numten():
     expected = "1" #put the expected result 
     assert actual == expected  #it will return true or false 
 ```
-10. run the test 
+10. run the test interminal
 11. follow the TDD process 
-12. build up the feacther as a baby steps
+12. build up the feacther as we call a baby steps.
 
 
 
