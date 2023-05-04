@@ -22,7 +22,7 @@ to run the tests on your pyton code follow these steps:
 3. inside tests directory create a `test_<file_name>.py`, replace the <file_name> with the name of the file that will be tested bt this test file.
 4. open file **test_<file_name>.py** in vs_code and wirte at the top `import pytest` to import the pytest library 
 5. add  __init__.py inside your folder that you saved the file you want to test to make it able to identify the directory is as a package 
-6. import the file you want to test as a module => ex: `from <your dir>.<file_to_test>.py import <file_to_test>`
+6. import the file you want to test as a module => ex: `from <your dir>.<file_to_test> import <file_to_test>`
 7. define your cases and what it will return as a comment ==> ex: `#input 10  => return 100` 
 8. write a testing function for each case you want to test note the test function must start with **def test_<test_name>**  ==> ex: 
 ```
