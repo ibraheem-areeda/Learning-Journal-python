@@ -31,7 +31,7 @@ def test_numten():
     expected = "1" #put the expected result 
     assert actual == expected  #it will return true or false 
 ```
-10. run the test interminal
+10. run the test interminal by typing `pytest`
 11. follow the TDD process 
 12. build up the feacther as we call it a " baby steps ".
 
