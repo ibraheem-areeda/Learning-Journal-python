@@ -18,7 +18,8 @@ PyTest is a full featured test runner for Python applications. [Full Documentati
 ### run the tests and follow the **TTD** process:
 to run the tests on your pyton code follow these steps:
 1. install pytest in your environment, type this line in your terminal `pip install pytest`
-2. create a file named  __init__.py inside your **tests** folder to make it able to identify the directory is as a package 
+2. create a folder named **tests** 
+2. create a file named  `__init__.py` inside your **tests** folder to make it able to identify the directory is as a package 
 3. inside tests directory create a `test_<file_name>.py`, replace the <file_name> with the name of the file that will be tested bt this test file.
 4. open file **test_<file_name>.py** in vs_code and wirte at the top `import pytest` to import the pytest library 
 5. add  __init__.py inside your folder that you saved the file you want to test to make it able to identify the directory is as a package 
