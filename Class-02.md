@@ -8,6 +8,16 @@ the dunder `__name__` we can for now conceder it as a variable that have to stat
 on the other hand if the python file run as a script the value of the `__name__` will be equals `"__main__"`, for example it will be  `__name__ == "__main__" ==> true`  
 we can use the concept to write an **if statement that will run certain code if the file runs as a script.**
 
+### Test-Driven Development
+Test-driven development is a software development process that relies on the repetition of a very short development cycle: Requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is opposed to software development that allows software to be added that is not proven to meet requirements.   
+TDD is typically approached from a Red, Green, Refactor approach. Red;
+
+### pytest
+PyTest is a full featured test runner for Python applications. [Full Documentation Here](https://docs.pytest.org/en/latest/contents.html#toc)
+
+### run the tests and follow the **TTD** process:
+to run the tests on your pyton code follow these steps:
+1. install pytest in your environment, type this `pip install pytest`
 
 
   
