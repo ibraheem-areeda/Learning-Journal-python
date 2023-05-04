@@ -36,6 +36,8 @@ def test_numten():
 11. follow the TDD process 
 12. build up the feacther as we call it a " baby steps ".
 
+ps to 
+
 
 
   
