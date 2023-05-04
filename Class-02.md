@@ -5,6 +5,9 @@ regarding the gateway terminology, the main two ways to run the code in python i
 
 ### `__name__`
 the dunder `__name__` we can for now conceder it as a variable that have to states, if the python file run as a module the value of the `__name__` will be the same name of the file name for example it will be  `__name__ == "your_project_name" ==> true `.   
-on the other hand if the python file run as a script the value of the `__name__` will be equals `"__main__"`, for example it will be  `__name__ == "__main__" ==> true`
+on the other hand if the python file run as a script the value of the `__name__` will be equals `"__main__"`, for example it will be  `__name__ == "__main__" ==> true`  
+we can use the concept to write an **if statement that will run certain code if the file runs as a script.**
+
+
 
   
