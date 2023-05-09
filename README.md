@@ -1,8 +1,12 @@
-# Learning-Journal-python
-This repo represents my notes, in the table below there are links to all notes I tacke for the classes of the python couse.
+# Class 3 
+### jupyter lab :
+jupyter lab is a dependency in python, it will able us to do a .ipunb files, this type of files is like a interactive python note book, finally this is a good type of documentation that we can use for our work.
 
+### expectations vs errors:
 
-| Class |Topic|link |
-| --- |----| ---- |
-| class 01  |into to pyhon| [link](Class-01.md) |
-| class 02  |Modules and Testing| [link](Class-02.md) |
+| expectations |errors |
+|------------- |------------ |
+| we don't see it while coding  | we see it by coding as error |
+| handle expectation | syntax error |
+| future errors | before the code is ready |
+| depend on user behaviour  | depend on developer behaviour   |
