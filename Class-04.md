@@ -15,22 +15,35 @@
 when we create a class use the PascalNamingConvention syntax:   
 ```
 class Cars:
+  population = 0
   def __init__(self, name , model , price) # methods to initialize the properties
     self.name = name        #like assign key value
     self.model = model
     self.price = price
+    Cars.count += 1
     
   def recomendatin(self):     # you can add methods as much as you need 
         return f'{self.name} is on of the best cars that we have!'
         
     @classmethod # class method is a method that operates on the class itself and can be used to modify the class or to create new instances of the class
-    
-    @staticmethod # static method is a method that belongs to a class and behaves like a regular function
+    def CarsCount (cls):
+        return cls.count
+        
+    @staticmethod # static method is a method that belongs to a class and behaves like a regular function bound to the class 
      def get_code():    
         return   'our cars in the best cars in the market' 
 ```
 In Python the @staticmethod and @classmethod decorators are used to declare static and class methods, respectively.
 
+| Feature | staticmethod | classmethod |
+| --- | --- | --- |
+| Decorator | `@staticmethod` | `@classmethod` |
+| First parameter | None | `cls` |
+| Use case | When a method does not need access to the class or instance state | When a method needs to access the class state or create new instances of the class |
+| Usage | Can be called on a class or an instance | Can be called on a class or an instance, but is usually called on the class |
+| Return value | None by default (but can return a value if specified) | Can return a value |
+| Access | Does not have access to class or instance state | Has access to the class state (through the `cls` parameter) |
+| Example | `@staticmethod def add(x, y): return x + y` | `@classmethod def create_instance(cls, *args, **kwargs): return cls(*args, **kwargs)` |
 
 
 
