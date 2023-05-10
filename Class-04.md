@@ -28,7 +28,7 @@ class Cars:
     @staticmethod # static method is a method that belongs to a class and behaves like a regular function
      def get_code():    
         return   'our cars in the best cars in the market' 
-    ```
+```
 In Python the @staticmethod and @classmethod decorators are used to declare static and class methods, respectively.
 
 
