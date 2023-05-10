@@ -16,7 +16,7 @@ when we create a class use the PascalNamingConvention syntax:
 ```
 class Cars:
   count = 0
-  def __init__(self, name , model , price) # methods to initialize the properties
+  def __init__(self, name , model , price): # methods to initialize the properties
     self.name = name        #like assign key value
     self.model = model
     self.price = price
