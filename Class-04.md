@@ -15,7 +15,7 @@
 when we create a class use the PascalNamingConvention syntax:   
 ```
 class Cars:
-  population = 0
+  count = 0
   def __init__(self, name , model , price) # methods to initialize the properties
     self.name = name        #like assign key value
     self.model = model
@@ -32,6 +32,9 @@ class Cars:
     @staticmethod # static method is a method that belongs to a class and behaves like a regular function bound to the class 
      def get_code():    
         return   'our cars in the best cars in the market' 
+   
+  # to create an instance :
+    fiat = Cars("fiat" , "2017" , "11000")
 ```
 In Python the @staticmethod and @classmethod decorators are used to declare static and class methods, respectively.
 
@@ -44,6 +47,10 @@ In Python the @staticmethod and @classmethod decorators are used to declare stat
 | Return value | None by default (but can return a value if specified) | Can return a value |
 | Access | Does not have access to class or instance state | Has access to the class state (through the `cls` parameter) |
 | Example | `@staticmethod def add(x, y): return x + y` | `@classmethod def create_instance(cls, *args, **kwargs): return cls(*args, **kwargs)` |
+
+### MRO (inheritance)
+MRO (Method Resolution Order) is the order in which Python searches for a method or attribute in the inheritance hierarchy of a class. It is calculated using the C3 linearization algorithm, which takes into account the order in which base classes are defined and ensures that no class appears in the MRO before all its parents have been processed. The MRO determines which implementation of a method will be used when multiple base classes define a method with the same name.
+
 
 
 
