@@ -51,6 +51,8 @@ In Python the @staticmethod and @classmethod decorators are used to declare stat
 ### MRO (inheritance)
 MRO (Method Resolution Order) is the order in which Python searches for a method or attribute in the inheritance hierarchy of a class. It is calculated using the C3 linearization algorithm, which takes into account the order in which base classes are defined and ensures that no class appears in the MRO before all its parents have been processed. The MRO determines which implementation of a method will be used when multiple base classes define a method with the same name.
 
+### Pytest Pytest
+Pytest Pytest fixtures are reusable pieces of code that provide a fixed baseline for testing. They are defined using the `@pytest.fixture` decorator and executed before a test function. Fixtures can be used as parameters in test functions, allowing you to reuse setup and teardown code across multiple tests. are reusable pieces of code that provide a fixed baseline for testing. They are defined using the `@pytest.fixture` decorator and executed before a test function. Fixtures can be used as parameters in test functions, allowing you to reuse setup and teardown code across multiple tests.
 
 
 
