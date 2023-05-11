@@ -70,6 +70,25 @@ Pytest Pytest fixtures are reusable pieces of code that provide a fixed baseline
 | Example Output | `<Person object at 0x10abcde>`                      | `"Alice, 25 years old"`                                          |
 | Example Usage | Used by `repr()` built-in function and debugger      | Used by `str()` built-in function, `print()`, and `format()` method |
 
+### enumerate()
+enumerate() is a built-in Python function that takes an iterable (such as a list, tuple, or string) and returns an iterator of tuples. Each tuple contains two elements: the index of the current item in the iterable and the item itself.
+
+The syntax for enumerate() is as follows: 
+
+enumerate(iterable, start=0)
+iterable: the iterable to enumerate
+start: (optional) the starting value for the index. The default value is 0.
+Here's an example of how to use enumerate() to iterate over a list:
+```
+fruits = ['apple', 'banana', 'cherry']
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+Output:
+
+0 apple
+1 banana
+2 cherry
+```
 
 
 
