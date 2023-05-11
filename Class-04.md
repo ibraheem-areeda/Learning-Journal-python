@@ -54,6 +54,21 @@ MRO (Method Resolution Order) is the order in which Python searches for a method
 ### Pytest Pytest
 Pytest Pytest fixtures are reusable pieces of code that provide a fixed baseline for testing. They are defined using the `@pytest.fixture` decorator and executed before a test function. Fixtures can be used as parameters in test functions, allowing you to reuse setup and teardown code across multiple tests. are reusable pieces of code that provide a fixed baseline for testing. They are defined using the `@pytest.fixture` decorator and executed before a test function. Fixtures can be used as parameters in test functions, allowing you to reuse setup and teardown code across multiple tests.
 
+### special method in Python classes
+ `__repr__` : is meant to provide a detailed, unambiguous representation of an object that can be used for debugging and development purposes
+ 
+ `__str__` : is meant to provide a concise, readable representation of an object that is suitable for end users and presentation purposes
+ 
+ Both methods return a string that represents the object, but `__repr__` is typically used to create a string that can be used to recreate the object, while `__str__` is typically used to create a string that represents the object in a human-readable format.
+
+
+|       | `__repr__`                                            | `__str__`                                                        |
+|-------|-------------------------------------------------------|------------------------------------------------------------------|
+| Usage | To provide a detailed, unambiguous representation      | To provide a concise, readable representation                    |
+| Output | Typically used for debugging and development          | Typically used for end users and presentation purposes           |
+| Returns | A string that can be used to recreate the object       | A string that represents the object in a human-readable format   |
+| Example Output | `<Person object at 0x10abcde>`                      | `"Alice, 25 years old"`                                          |
+| Example Usage | Used by `repr()` built-in function and debugger      | Used by `str()` built-in function, `print()`, and `format()` method |
 
 
 
