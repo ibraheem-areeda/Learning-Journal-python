@@ -7,3 +7,4 @@ This repo represents my notes, in the table below there are links to all notes I
 | class 02  |Modules and Testing| [link](Class-02.md) |
 | class 03  |File IO and Exceptions| [link](Class-03.md) |
 | class 04  |object orianted programing| [link](Class-04.md) |
+| class 06  |random & Ten-thousand game | [link](Class-06.md) |
