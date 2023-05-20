@@ -29,3 +29,18 @@ Differences between Stacks and Queues:
 4. **Usage**: Stacks are useful when you need to track a single current state or perform depth-first processing. Queues are suitable for scenarios where you want to process items in the order they were added or perform breadth-first processing.
 
 Both stacks and queues have their unique applications, and choosing between them depends on the specific requirements of the problem you are solving.
+
+Certainly! Here's a table summarizing the key points about stacks and queues:
+
+SUMMARY:
+
+|     | Stack                                   | Queue                                        |
+|-----|-----------------------------------------|----------------------------------------------|
+| Order | Last-In-First-Out (LIFO)                | First-In-First-Out (FIFO)                     |
+| Insertion  | Pushed onto the top                     | Enqueued at the rear                          |
+| Removal    | Popped from the top                      | Dequeued from the front                        |
+| Access     | Top element                              | Front and rear elements                       |
+| Time Complexity | Push, Pop, Peek: O(1)                  | Enqueue, Dequeue, Peek: O(1)                  |
+| Usage     | Undo/Redo, expression evaluation, recursion | Scheduling, breadth-first search, buffer management |
+| Implementation | Array, linked list, etc.               | Array, linked list, etc.                      |
+
