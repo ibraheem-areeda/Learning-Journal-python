@@ -10,3 +10,4 @@ This repo represents my notes, in the table below there are links to all notes I
 | class 06  |random & Ten-thousand game | [link](Class-06.md) |
 | class 07  |Dependency Injection & Ten-thousand gamev2 | [link](Class-07.md) |
 | class 08  |Stacks and Queues | [link](Class-08.md) |
+| class 09  |Ten-thousand game v3 | [link](Class-09.md) |
