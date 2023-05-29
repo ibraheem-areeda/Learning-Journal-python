@@ -12,3 +12,4 @@ This repo represents my notes, in the table below there are links to all notes I
 | class 08  |Stacks and Queues | [link](Class-08.md) |
 | class 09  |Ten-thousand game v3 | [link](Class-09.md) |
 | class 10  |helper fun | [link](Class-10.md) |
+| class 11  |into to numpy | [link](Class-11.md) |
