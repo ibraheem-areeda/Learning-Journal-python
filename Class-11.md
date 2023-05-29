@@ -29,8 +29,8 @@ import matplotlib.image as mpimg imports the image module from Matplotlib, which
 Once these modules are imported, you can use them in your code for plotting and working with images.
 
  ### matplotlib methods we learnt today
- `mpimg.imread`: function from the matplotlib.image module is used to read an image file and convert it into a NumPy array.
- `plt.imshow`: function from the matplotlib.pyplot module is used to display an image or array as a plot.
- `np.dot`: function is used to compute the dot product of two arrays.
- `np.random`: module provides functions for generating random numbers and random arrays.
- `np.zeros`: function is used to create an array filled with zeros.
+ - `mpimg.imread`: function from the matplotlib.image module is used to read an image file and convert it into a NumPy array.
+ - `plt.imshow`: function from the matplotlib.pyplot module is used to display an image or array as a plot.
+ - `np.dot`: function is used to compute the dot product of two arrays.
+ - `np.random`: module provides functions for generating random numbers and random arrays.
+ - `np.zeros`: function is used to create an array filled with zeros.
